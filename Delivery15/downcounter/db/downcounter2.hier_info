@@ -1,0 +1,21 @@
+|downcounter2
+enable => decre_q.IN0
+enable => cnt.OUTPUTSELECT
+enable => cnt.OUTPUTSELECT
+enable => cnt.OUTPUTSELECT
+enable => cnt.OUTPUTSELECT
+areset => q[0]~reg0.ALOAD
+areset => q[1]~reg0.ALOAD
+areset => q[2]~reg0.ALOAD
+areset => q[3]~reg0.ALOAD
+count_en => decre_q.IN1
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+q[0] << q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] << q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] << q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] << q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
