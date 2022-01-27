@@ -1,5 +1,5 @@
-Flow report for delivery11
-Thu Jan 20 07:52:27 2022
+Flow report for Delivery12
+Thu Jan 13 12:10:59 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,13 +40,11 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Flow Failed - Thu Jan 20 07:52:27 2022          ;
+; Flow Status                        ; Flow Failed - Thu Jan 13 12:10:59 2022          ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
-; Revision Name                      ; delivery11                                      ;
-; Top-level Entity Name              ; delivery11                                      ;
+; Revision Name                      ; Delivery12                                      ;
+; Top-level Entity Name              ; Delivery12                                      ;
 ; Family                             ; Cyclone II                                      ;
-; Device                             ; EP2C5F256I8                                     ;
-; Timing Models                      ; Final                                           ;
 ; Total logic elements               ; N/A until Partition Merge                       ;
 ;     Total combinational functions  ; N/A until Partition Merge                       ;
 ;     Dedicated logic registers      ; N/A until Partition Merge                       ;
@@ -64,9 +62,9 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/20/2022 07:52:26 ;
+; Start date & time ; 01/13/2022 12:10:58 ;
 ; Main task         ; Compilation         ;
-; Revision Name     ; delivery11          ;
+; Revision Name     ; Delivery12          ;
 +-------------------+---------------------+
 
 
@@ -75,14 +73,11 @@ applicable agreement for further details.
 +-------------------------------------+------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                        ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 622691800492.164267954615144 ; --            ; --          ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 125                          ; --            ; --          ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; -40                          ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 622691800492.164209025809968 ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; 16764057                     ; --            ; --          ; Top        ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING        ; --            ; --          ; Top        ;
 ; PARTITION_NETLIST_TYPE              ; SOURCE                       ; --            ; --          ; Top        ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                 ; --            ; --          ; --         ;
-; VHDL_INPUT_VERSION                  ; VHDL_2008                    ; VHDL_1993     ; --          ; --         ;
 ; VHDL_SHOW_LMF_MAPPING_MESSAGES      ; Off                          ; --            ; --          ; --         ;
 +-------------------------------------+------------------------------+---------------+-------------+------------+
 
@@ -92,8 +87,8 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:02     ; 1.0                     ; 4621 MB             ; 00:00:01                           ;
-; Total                ; 00:00:02     ; --                      ; --                  ; 00:00:01                           ;
+; Analysis & Synthesis ; 00:00:01     ; 1.0                     ; 4620 MB             ; 00:00:01                           ;
+; Total                ; 00:00:01     ; --                      ; --                  ; 00:00:01                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -109,7 +104,7 @@ applicable agreement for further details.
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off delivery11 -c delivery11
+quartus_map --read_settings_files=on --write_settings_files=off Delivery12 -c Delivery12
 
 
 

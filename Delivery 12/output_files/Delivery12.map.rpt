@@ -1,5 +1,5 @@
-Analysis & Synthesis report for delivery11
-Thu Jan 20 07:52:27 2022
+Analysis & Synthesis report for Delivery12
+Thu Jan 13 12:10:59 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,10 +36,10 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Thu Jan 20 07:52:27 2022               ;
+; Analysis & Synthesis Status        ; Failed - Thu Jan 13 12:10:59 2022               ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
-; Revision Name                      ; delivery11                                      ;
-; Top-level Entity Name              ; delivery11                                      ;
+; Revision Name                      ; Delivery12                                      ;
+; Top-level Entity Name              ; Delivery12                                      ;
 ; Family                             ; Cyclone II                                      ;
 ; Total logic elements               ; N/A until Partition Merge                       ;
 ;     Total combinational functions  ; N/A until Partition Merge                       ;
@@ -58,11 +58,9 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
-; Device                                                                     ; EP2C5F256I8        ;                    ;
-; Top-level entity name                                                      ; delivery11         ; delivery11         ;
+; Top-level entity name                                                      ; Delivery12         ; Delivery12         ;
 ; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
 ; VHDL Show LMF Mapping Messages                                             ; Off                ;                    ;
-; VHDL Version                                                               ; VHDL_2008          ; VHDL_1993          ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
 ; Enable compact report table                                                ; Off                ; Off                ;
@@ -71,6 +69,7 @@ applicable agreement for further details.
 ; Preserve fewer node names                                                  ; On                 ; On                 ;
 ; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
 ; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
 ; State Machine Processing                                                   ; Auto               ; Auto               ;
 ; Safe State Machine                                                         ; Off                ; Off                ;
 ; Extract Verilog State Machines                                             ; On                 ; On                 ;
@@ -156,17 +155,17 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Jan 20 07:52:25 2022
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off delivery11 -c delivery11
+    Info: Processing started: Thu Jan 13 12:10:58 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Delivery12 -c Delivery12
 Warning (20028): Parallel compilation is not licensed and has been disabled
-Info (12021): Found 2 design units, including 1 entities, in source file and_gate.vhd
-    Info (12022): Found design unit 1: bin2gray-bin2gray_Arch
-    Info (12023): Found entity 1: bin2gray
-Error (12007): Top-level design entity "delivery11" is undefined
+Info (12021): Found 2 design units, including 1 entities, in source file delivery12.vhd
+    Info (12022): Found design unit 1: Contador_Decrescente-contador_Decrescente_Arch
+    Info (12023): Found entity 1: Contador_Decrescente
+Error (12007): Top-level design entity "Delivery12" is undefined
 Error: Quartus II 64-Bit Analysis & Synthesis was unsuccessful. 1 error, 1 warning
-    Error: Peak virtual memory: 4621 megabytes
-    Error: Processing ended: Thu Jan 20 07:52:27 2022
-    Error: Elapsed time: 00:00:02
+    Error: Peak virtual memory: 4620 megabytes
+    Error: Processing ended: Thu Jan 13 12:10:59 2022
+    Error: Elapsed time: 00:00:01
     Error: Total CPU time (on all processors): 00:00:01
 
 
