@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="schematic">
+		<CBX_INST_ENTRY INSTANCE_NAME="|schematic|lpm_constant0:b2v_inst4|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_be6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|schematic|lpm_constant1:b2v_inst6|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_de6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|schematic|lpm_constant2:b2v_inst7|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_3e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|schematic|lpm_constant3:b2v_inst9|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

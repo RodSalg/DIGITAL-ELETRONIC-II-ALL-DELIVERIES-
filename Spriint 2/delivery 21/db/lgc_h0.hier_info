@@ -1,0 +1,6 @@
+|lgc_h0
+gt => lgc_out.DATAIN
+lt => ~NO_FANOUT~
+lgc_out <= gt.DB_MAX_OUTPUT_PORT_TYPE
+
+

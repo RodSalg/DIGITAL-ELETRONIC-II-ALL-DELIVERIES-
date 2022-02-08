@@ -1,0 +1,180 @@
+|esquematico
+enable => dsf_upcounter:b2v_inst2.enable
+enable => dsf_datareg:b2v_inst3.enable
+enable => dsf_compare:b2v_inst4.enable
+reset => dsf_upcounter:b2v_inst2.areset
+clk => dsf_upcounter:b2v_inst2.clk
+clk => dsf_datareg:b2v_inst3.clk
+clk => dsf_compare:b2v_inst5.enable
+windows => dsf_upcounter:b2v_inst2.count_en
+store => dsf_datareg:b2v_inst3.load_en
+rst_on => dsf_datareg:b2v_inst3.areset
+led_blue <= logic:b2v_inst.logic_out
+led_red <= dsf_compare:b2v_inst4.gtout
+led_green <= dsf_compare:b2v_inst5.ltout
+
+
+|esquematico|logic:b2v_inst
+gt => logic_out.DATAIN
+lt => ~NO_FANOUT~
+logic_out <= gt.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|esquematico|dsf_upcounter:b2v_inst2
+enable => inc_q.IN0
+enable => cnt.OUTPUTSELECT
+enable => cnt.OUTPUTSELECT
+enable => cnt.OUTPUTSELECT
+enable => cnt.OUTPUTSELECT
+areset => q[0]~reg0.ALOAD
+areset => q[1]~reg0.ALOAD
+areset => q[2]~reg0.ALOAD
+areset => q[3]~reg0.ALOAD
+count_en => inc_q.IN1
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|esquematico|dsf_datareg:b2v_inst3
+enable => load_q.IN0
+enable => reg.OUTPUTSELECT
+enable => reg.OUTPUTSELECT
+enable => reg.OUTPUTSELECT
+enable => reg.OUTPUTSELECT
+areset => q[0]~reg0.ALOAD
+areset => q[1]~reg0.ALOAD
+areset => q[2]~reg0.ALOAD
+areset => q[3]~reg0.ALOAD
+load_en => load_q.IN1
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+data[0] => q[0]~reg0.DATAIN
+data[1] => q[1]~reg0.DATAIN
+data[2] => q[2]~reg0.DATAIN
+data[3] => q[3]~reg0.DATAIN
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|esquematico|dsf_compare:b2v_inst4
+enable => gleout.OUTPUTSELECT
+enable => gleout.OUTPUTSELECT
+enable => gleout.OUTPUTSELECT
+dataa[0] => LessThan0.IN4
+dataa[0] => LessThan1.IN4
+dataa[1] => LessThan0.IN3
+dataa[1] => LessThan1.IN3
+dataa[2] => LessThan0.IN2
+dataa[2] => LessThan1.IN2
+dataa[3] => LessThan0.IN1
+dataa[3] => LessThan1.IN1
+datab[0] => LessThan0.IN8
+datab[0] => LessThan1.IN8
+datab[1] => LessThan0.IN7
+datab[1] => LessThan1.IN7
+datab[2] => LessThan0.IN6
+datab[2] => LessThan1.IN6
+datab[3] => LessThan0.IN5
+datab[3] => LessThan1.IN5
+gtin => code.OUTPUTSELECT
+gtin => code.OUTPUTSELECT
+gtin => code.OUTPUTSELECT
+ltin => code.OUTPUTSELECT
+ltin => code.OUTPUTSELECT
+ltin => code.OUTPUTSELECT
+eqin => code.OUTPUTSELECT
+eqin => code.OUTPUTSELECT
+eqin => code.OUTPUTSELECT
+gtout <= gleout.DB_MAX_OUTPUT_PORT_TYPE
+ltout <= gleout.DB_MAX_OUTPUT_PORT_TYPE
+eqout <= gleout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|esquematico|dsf_compare:b2v_inst5
+enable => gleout.OUTPUTSELECT
+enable => gleout.OUTPUTSELECT
+enable => gleout.OUTPUTSELECT
+dataa[0] => LessThan0.IN4
+dataa[0] => LessThan1.IN4
+dataa[1] => LessThan0.IN3
+dataa[1] => LessThan1.IN3
+dataa[2] => LessThan0.IN2
+dataa[2] => LessThan1.IN2
+dataa[3] => LessThan0.IN1
+dataa[3] => LessThan1.IN1
+datab[0] => LessThan0.IN8
+datab[0] => LessThan1.IN8
+datab[1] => LessThan0.IN7
+datab[1] => LessThan1.IN7
+datab[2] => LessThan0.IN6
+datab[2] => LessThan1.IN6
+datab[3] => LessThan0.IN5
+datab[3] => LessThan1.IN5
+gtin => code.OUTPUTSELECT
+gtin => code.OUTPUTSELECT
+gtin => code.OUTPUTSELECT
+ltin => code.OUTPUTSELECT
+ltin => code.OUTPUTSELECT
+ltin => code.OUTPUTSELECT
+eqin => code.OUTPUTSELECT
+eqin => code.OUTPUTSELECT
+eqin => code.OUTPUTSELECT
+gtout <= gleout.DB_MAX_OUTPUT_PORT_TYPE
+ltout <= gleout.DB_MAX_OUTPUT_PORT_TYPE
+eqout <= gleout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|esquematico|lpm_constant0:b2v_inst6
+result[0] <= lpm_constant:LPM_CONSTANT_component.result[0]
+result[1] <= lpm_constant:LPM_CONSTANT_component.result[1]
+result[2] <= lpm_constant:LPM_CONSTANT_component.result[2]
+result[3] <= lpm_constant:LPM_CONSTANT_component.result[3]
+
+
+|esquematico|lpm_constant0:b2v_inst6|lpm_constant:LPM_CONSTANT_component
+result[0] <= <VCC>
+result[1] <= <GND>
+result[2] <= <VCC>
+result[3] <= <GND>
+
+
+|esquematico|lpm_constant2:b2v_inst7
+result[0] <= lpm_constant:LPM_CONSTANT_component.result[0]
+
+
+|esquematico|lpm_constant2:b2v_inst7|lpm_constant:LPM_CONSTANT_component
+result[0] <= <GND>
+
+
+|esquematico|lpm_constant3:b2v_inst8
+result[0] <= lpm_constant:LPM_CONSTANT_component.result[0]
+
+
+|esquematico|lpm_constant3:b2v_inst8|lpm_constant:LPM_CONSTANT_component
+result[0] <= <VCC>
+
+
+|esquematico|lpm_constant1:b2v_inst9
+result[0] <= lpm_constant:LPM_CONSTANT_component.result[0]
+result[1] <= lpm_constant:LPM_CONSTANT_component.result[1]
+result[2] <= lpm_constant:LPM_CONSTANT_component.result[2]
+result[3] <= lpm_constant:LPM_CONSTANT_component.result[3]
+
+
+|esquematico|lpm_constant1:b2v_inst9|lpm_constant:LPM_CONSTANT_component
+result[0] <= <VCC>
+result[1] <= <VCC>
+result[2] <= <VCC>
+result[3] <= <GND>
+
+
