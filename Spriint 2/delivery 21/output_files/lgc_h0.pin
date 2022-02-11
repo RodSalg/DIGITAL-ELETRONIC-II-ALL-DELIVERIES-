@@ -438,7 +438,7 @@ VCCIO3                       : C11       : power  :                   : 3.3V    
 GND*                         : C12       :        :                   :         : 3         :                
 GND*                         : C13       :        :                   :         : 3         :                
 GND*                         : C14       :        :                   :         : 3         :                
-GND*                         : C15       :        :                   :         : 3         :                
+lt                           : C15       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : C16       :        :                   :         : 4         :                
 GND*                         : C17       :        :                   :         : 4         :                
 GND*                         : C18       :        :                   :         : 4         :                
@@ -558,7 +558,7 @@ GND*                         : G11       :        :                   :         
 GND*                         : G12       :        :                   :         : 3         :                
 GND*                         : G13       :        :                   :         : 3         :                
 GND*                         : G14       :        :                   :         : 3         :                
-lt                           : G15       : input  : 3.3-V LVTTL       :         : 3         : N              
+enable                       : G15       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : G16       :        :                   :         : 4         :                
 GND*                         : G17       :        :                   :         : 4         :                
 GND*                         : G18       :        :                   :         : 4         :                

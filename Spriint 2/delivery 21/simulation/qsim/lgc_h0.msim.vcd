@@ -1,0 +1,50 @@
+$comment
+	File created using the following command:
+		vcd file lgc_h0.msim.vcd -direction
+$end
+$date
+	Wed Feb 09 12:52:26 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module lgc_h0_vlg_vec_tst $end
+$var reg 1 ! enable $end
+$var reg 1 " gt $end
+$var reg 1 # lt $end
+$var wire 1 $ lgc_out $end
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + lt~combout $end
+$var wire 1 , enable~combout $end
+$var wire 1 - gt~combout $end
+$var wire 1 . lgc_out~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+x"
+x#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+x+
+1,
+x-
+x.
+$end
+#1000000

@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<LOG_ROOT>
-	<PROJECT NAME="Block2">
-		<CBX_INST_ENTRY INSTANCE_NAME="|Block2|lpm_constant0:b2v_inst10|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_de6.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|Block2|lpm_constant0:b2v_inst11|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_de6.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|Block2|lpm_constant0:b2v_inst5|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_de6.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|Block2|lpm_constant0:b2v_inst6|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_de6.tdf"/>
-	</PROJECT>
-</LOG_ROOT>

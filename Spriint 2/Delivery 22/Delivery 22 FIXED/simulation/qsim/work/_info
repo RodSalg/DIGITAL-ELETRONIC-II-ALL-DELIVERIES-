@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\rmala\Desktop\Delivery 22\simulation\qsim
+vschematic
+Z1 !s100 _i]VYoOd6iF`;a2o`4i5@1
+Z2 I>Le2SRR<Z^GLaNiJ]RbAM3
+Z3 V?WGPFif7[jCG;Smi0@^UG0
+Z4 dD:\HD - JOGOS\MeusProjetos\DIGITAL-ELETRONIC-II-ALL-DELIVERIES-\Spriint 2\Delivery 22\Delivery 22 FIXED\simulation\qsim
+Z5 w1644433228
+Z6 8schematic.vo
+Z7 Fschematic.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|schematic.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1644433229.893000
+Z12 !s107 schematic.vo|
+!s101 -O0
+vschematic_vlg_check_tst
+!i10b 1
+Z13 !s100 2CD_Fk1RYJjA]XUhUC2Mo2
+Z14 Ig<^JPlQ3Rj9U0I6O;NXPe2
+Z15 V8Df7f@6a?NC2^YL_A8oUE3
+R4
+Z16 w1644433227
+Z17 8schematic.vt
+Z18 Fschematic.vt
+L0 67
+R8
+r1
+!s85 0
+31
+Z19 !s108 1644433230.146000
+Z20 !s107 schematic.vt|
+Z21 !s90 -work|work|schematic.vt|
+!s101 -O0
+R10
+vschematic_vlg_sample_tst
+!i10b 1
+Z22 !s100 dkM<dcG4A;]MAa43P`jXA3
+Z23 Ih:Z0IzWe28fRnneOzCJCV2
+Z24 VWUlGoSgmc_H>TUEE=M6VU3
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vschematic_vlg_vec_tst
+!i10b 1
+Z25 !s100 m@>e;GAE@E6kk`hOZ0od<3
+Z26 IL`kX;2_MkDNPoQ2^bES@J0
+Z27 VRk7ET]9AWRh?f[;[2@zeK1
+R4
+R16
+R17
+R18
+Z28 L0 296
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

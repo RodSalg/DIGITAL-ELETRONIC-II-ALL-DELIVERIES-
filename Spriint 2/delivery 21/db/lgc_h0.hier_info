@@ -1,6 +1,7 @@
 |lgc_h0
-gt => lgc_out.DATAIN
-lt => ~NO_FANOUT~
-lgc_out <= gt.DB_MAX_OUTPUT_PORT_TYPE
+enable => lgc_out.IN1
+gt => lgc_out.IN0
+lt => lgc_out.IN1
+lgc_out <= lgc_out.DB_MAX_OUTPUT_PORT_TYPE
 
 
