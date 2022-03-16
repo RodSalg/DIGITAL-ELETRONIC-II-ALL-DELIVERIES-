@@ -1,0 +1,8 @@
+
+State Machine - |rlc_microservice|current
+Name current.windows_s current.store_s current.reset_s current.wait4pulse_s current.rst_on 
+current.rst_on 0 0 0 0 0 
+current.wait4pulse_s 0 0 0 1 1 
+current.reset_s 0 0 1 0 1 
+current.store_s 0 1 0 0 1 
+current.windows_s 1 0 0 0 1 
